@@ -42,4 +42,10 @@ The basic premise is that when deleting records, the gaps in sequencing makes th
 truth to it and I will not be using this approach. The primary key will be the user's id.
 
 `rank` is used by the author to identify the user's role. This is a reserved word in MySQL 8.0.2 and greater. I will be
-using `role` instead. 
+using `role` instead.
+
+## [Ep. 3: Core files](https://youtu.be/3IKQKpklKwo?si=LmZB99LOeMR74w8B)
+
+Added the `public` and `app` directories. (Note: the author uses 'private' instead of 'app').
+
+Added the `.htaccess` file.
