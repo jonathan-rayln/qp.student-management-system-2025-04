@@ -6,6 +6,7 @@ along as closely as possible to the original code, taking minor liberties along 
 through this and try to highlight where I have strayed form the author's original code and why.
 
 Each episode (video) will be noted with its own branch using the video number and title so that it can be easily found.
+
 ---
 
 ## [Ep. 1: Intro](https://youtu.be/ztDGTjXlY5U?si=4YftXnXo8TBYHVpu)
