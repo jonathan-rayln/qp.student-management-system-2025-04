@@ -49,3 +49,7 @@ using `role` instead.
 Added the `public` and `app` directories. (Note: the author uses 'private' instead of 'app').
 
 Added the `.htaccess` file.
+
+## [Ep. 4: App Class](https://youtu.be/PmQMqJQujY8?si=ksMI71KX-QShcque)
+
+Set up the initial use of the App::class and began to filter the url.
