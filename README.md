@@ -33,3 +33,12 @@ Installs the basic tools:
 - Text Editor (author uses Sublime Text), I will be using PHP Storm
 - Bootstrap (author uses 4.0. I will be using CDN version of 5.3 which is the current version)
 - Font Awesome (author downloads, I will be using my own account)
+
+## [Ep. 2: Users table](https://youtu.be/juE9Bg2JR7U?si=w44xLolRDbvYl-jc)
+
+During the creation of the `users` table, the author creates a _separate_ user id that is based on a random text string.
+The basic premise is that when deleting records, the gaps in sequencing makes the database slow. This has very little
+truth to it and I will not be using this approach. The primary key will be the user's id.
+
+`rank` is used by the author to identify the user's role. This is a reserved word in MySQL 8.0.2 and greater. I will be
+using `role` instead. 
