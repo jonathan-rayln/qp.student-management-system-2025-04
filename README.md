@@ -67,3 +67,10 @@ will call the `Student` controller class
 ## [Ep. 6: Calling the app method](https://youtu.be/eFhz-UjpbTI?si=_rLx2hzXnKMh-mMC)
 
 This episode finishes parsing the url to call the correct method and pass parameters.
+
+## [Ep. 7: View function](https://youtu.be/A__jsUBXWro?si=ieYvRuz9aK8NNPr-)
+
+This episode creates a rudimentary view method in the parent controller to display views.
+
+It should be noted that although the author doesn't test it at this point, his method for passing variable data to the
+view does not work as he has written it. This will have to be addressed in future videos, I imagine.

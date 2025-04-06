@@ -6,6 +6,8 @@ class Home extends Controller
 
     public function index()
     {
-        var_dump('this is Home::index');
+        echo $this->view('home', [
+            'var' => 'foo'
+        ]);
     }
 }
