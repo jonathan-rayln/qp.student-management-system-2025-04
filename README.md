@@ -63,3 +63,7 @@ http://www.mysite.com/students
 ```
 
 will call the `Student` controller class
+
+## [Ep. 6: Calling the app method](https://youtu.be/eFhz-UjpbTI?si=_rLx2hzXnKMh-mMC)
+
+This episode finishes parsing the url to call the correct method and pass parameters.
