@@ -8,13 +8,22 @@ class App
 
     public function __construct()
     {
-        echo '<pre>';
-        print_r($this->getUrl());
-        echo '</pre>';
+        $url = $this->getUrl();
+
+
+        if (file_exists('../app/Controllers/' . ucfirst($this->controller) . '.php')) {
+            $this->controller = $url[0];
+        }
+
+        require '../app/Controllers/' . ucfirst($this->controller) . '.php';
+
+        $this->controller = new $this->controller();
     }
 
     private function getUrl()
     {
-        return explode('/', filter_var(trim($_GET['url'], '/'), FILTER_SANITIZE_URL));
+        $url = $_GET['url'] ?? $this->controller;
+
+        return explode('/', filter_var(trim($url, '/'), FILTER_SANITIZE_URL));
     }
 }

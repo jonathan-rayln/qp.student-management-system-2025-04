@@ -53,3 +53,13 @@ Added the `.htaccess` file.
 ## [Ep. 4: App Class](https://youtu.be/PmQMqJQujY8?si=ksMI71KX-QShcque)
 
 Set up the initial use of the App::class and began to filter the url.
+
+## [Ep. 5: App Class 2](https://youtu.be/vSkXMwFpC74?si=vriewPWT17nNMzmx)
+
+We continue to develop the `App` class by calling the controller based on the first argument of the URL.
+
+```
+http://www.mysite.com/students
+```
+
+will call the `Student` controller class
